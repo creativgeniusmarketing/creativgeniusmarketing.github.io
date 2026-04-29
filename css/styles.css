@@ -2901,6 +2901,14 @@ img.u-pull-left {
     padding : 0;
     outline : 0;
     border  : none;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.s-header__logo a span {
+    display: block;
+    line-height: 2.5rem;
+    font-size: 4.9rem;
 }
 
 .s-header__logo img {
@@ -3189,7 +3197,7 @@ img.u-pull-left {
     --text-huge-line-height : 1.158;
     --text-huge-multiplier  : 1;
     padding-top             : calc(var(--header-height) + var(--vspace-5));
-    padding-bottom          : var(--vspace-5);
+    padding-bottom          : var(--vspace-1);
 }
 
 /* --------------------------------------------------------------------
@@ -3236,7 +3244,7 @@ img.u-pull-left {
     letter-spacing : normal;
     text-align     : center;
     margin         : 0;
-    padding-bottom : calc(10 * var(--space));
+    padding-bottom : calc(6 * var(--space));
     position       : relative;
 }
 
@@ -3292,7 +3300,7 @@ img.u-pull-left {
     font-weight      : 300;
     font-size        : calc(var(--text-size) * 1.1111);
     line-height      : var(--vspace-1_25);
-    color            : var(--color-text-light);
+    color            : var(--color-white);
     margin-top       : calc(var(--vspace-3) * -1);
     margin-bottom    : var(--vspace-3_5);
     padding          : var(--vspace-2_5) var(--vspace-3) var(--vspace-2);
@@ -3529,6 +3537,7 @@ img.u-pull-left {
     background-color : var(--color-1-dark);
     padding-top      : var(--vspace-5);
     padding-bottom   : var(--vspace-5);
+    background: radial-gradient(57% 57% at 48.69% 43%, var(--color-body), #001015 73%);;
 }
 
 /* --------------------------------------------------------------------
@@ -3665,8 +3674,8 @@ img.u-pull-left {
  *
  * ------------------------------------------------------------------- */
 .s-works {
-    padding-top    : var(--vspace-5);
-    padding-bottom : var(--vspace-4);
+    padding-top    : var(--vspace-2_5);
+    padding-bottom : var(--vspace-3);
 }
 
 /* ------------------------------------------------------------------- 
@@ -3690,6 +3699,7 @@ img.u-pull-left {
  */
 .folio-item__thumb a {
     display : block;
+    margin-right: 5px;
 }
 
 .folio-item__thumb a::before {
@@ -4077,6 +4087,7 @@ img.u-pull-left {
     background-color : var(--color-gray-14);
     padding-top      : var(--vspace-5);
     padding-bottom   : var(--vspace-3);
+    background: radial-gradient(57% 57% at 48.69% 43%, #045452, #002d39 73%);
 }
 
 .s-contact__content {
@@ -4130,6 +4141,20 @@ img.u-pull-left {
     font-size   : var(--text-lg);
     line-height : calc(1.375 * var(--space));
     color       : white;
+}
+.footer-logo {
+    display: block;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: none;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+.footer-logo span {
+    display: block;
+    line-height: 2.5rem;
+    font-size: 4.9rem;
 }
 
 .s-footer__bottom {
@@ -4299,3 +4324,53 @@ img.u-pull-left {
         width  : var(--vspace-1_25);
     }
 }
+
+
+/* ===================================================================
+ * # CUSTOM
+ *
+ *
+ * ------------------------------------------------------------------- */
+
+ /* Header */
+ .large-header {
+     position: relative;
+     width: 100%;
+     background: #333;
+     overflow: hidden;
+     background-size: cover;
+     background-position: center center;
+     z-index: 1;
+ }
+
+ #large-header {
+     background-image: url('https://www.marcoguglie.it/Codepen/AnimatedHeaderBg/demo-1/img/demo-1-bg.jpg');
+ }
+
+ .main-title {
+     position: absolute;
+     margin: 0;
+     padding: 0;
+     color: #f9f1e9;
+     text-align: center;
+     top: 50%;
+     left: 50%;
+     -webkit-transform: translate3d(-50%, -50%, 0);
+     transform: translate3d(-50%, -50%, 0);
+ }
+
+ .demo-1 .main-title {
+     text-transform: uppercase;
+     font-size: 4.2em;
+     letter-spacing: 0.1em;
+ }
+
+ .main-title .thin {
+     font-weight: 200;
+ }
+
+ @media only screen and (max-width : 768px) {
+     .demo-1 .main-title {
+         font-size: 3em;
+     }
+ }
