@@ -2,14 +2,26 @@
 
 DESCRIPTION:
 
-TYNDALE is a free HTML website template built for digital studios and agencies. A modern, 
-attractive, one-page template packed with features for building responsive websites that would 
-stand out from the average. The features that come with this template also allows it to be 
-versatile so aside from agencies, it can also be used for other purposes such as portfolio, 
-business, personal websites, among others. Another thing you would love about this template 
-is its clean, organized, well-commented code which makes it easy to modify and customize. If 
-you need to craft a stunning online presence, TYNDALE is the perfect tool that can help do 
-the job.
+Fully Customized portfolio website showcasing the various Drupal Based Websites I have developed over the past 5-6 years.
+
+FEMA Floodsmart Historical Claims Page:
+https://www.floodsmart.gov/historical-nfip-claims-information-and-trends 
+
+Bathing Brands Dealer Website:
+https://www.bathingbrands.com/
+
+Bathing Brands Consumer Website:
+https://www.accurateindustries.com/
+
+Wisconsin Lottery:
+https://wilottery.com/
+
+Yamaha Outboards:
+https://yamahaoutboards.com/
+
+USDA National Forest Service:
+https://www.fs.usda.gov/
+
 
 ==================================================================================================
 
@@ -68,39 +80,6 @@ If possible, kindly send us the site's url where the template is being used.
 Also, keep your Paypal receipt as proof of payment and your good to go.
 
 
------------------------------------------------------------------------------------------------------- 
-
-
-SUPPORT:
-    
-Since TYNDALE is distributed for free, support is not offered. TYNDALE is coded according 
-to current web standards and we did our best to make the template easy to use and modify.
-If you have minimum web development experience, you can easily modify the template. 
-However, If you're still new to HTML and CSS, I suggest that you visit the 
-following tutorials:
-
- - https://marksheet.io/
- - http://learn.shayhowe.com/html-css/
-
-These will teach you the essentials of HTML and CSS. In addition, if you want to include
-javascript in your skill-set, you can also check out these tutorials: 
-
- - https://www.codecademy.com/learn/introduction-to-javascript
- - https://javascript.info/
-
-
-
------------------------------------------------------------------------------------------------------- 
-
-
-GET THE LATEST VERSION:
-
-We update our templates on a regular basis so to make sure that you have the latest version, 
-always download the template files directly on our website(https://www.styleshout.com/)
-
-
-
--------------------------------------------------------------------------------------------------------
 
 
 SOURCES AND CREDITS:
