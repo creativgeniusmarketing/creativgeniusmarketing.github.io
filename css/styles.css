@@ -3700,6 +3700,7 @@ img.u-pull-left {
 .folio-item__thumb a {
     display : block;
     margin-right: 5px;
+    margin-bottom: 10px;
 }
 
 .folio-item__thumb a::before {
